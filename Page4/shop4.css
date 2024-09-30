@@ -116,9 +116,10 @@ header{
 
 }
 .con2-boxt{
+    margin-left: 70px
 }
 .con2-boxb{
-    margin-left: 20px
+    margin-left: 100px
 }
 .boxb2{
     width: 100px;
@@ -238,6 +239,13 @@ header{
 .conti-box1{
     margin-top: 15px;
 }
+.conti-box11{
+    display: flex;
+}
+.conti-boxxx{
+    margin-left: 15px;
+    margin-top: 25px;
+}
 .contii{
     display: flex;
     flex-wrap: wrap;
@@ -245,8 +253,28 @@ header{
     justify-content: space-around;
     gap: 5px;
 }
+.con-text{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.con-text1{
+    display: flex;
+    gap: 20px;
+}
+.con-text2{
+    color: #6c757d;
+    margin-top: -20px;
+    padding-right: 70px;
+}
+.contiii{
+    margin-top: 30px;
+    gap: 10px;
+}
 .conti-img{
     width: 190px;
+}
+.conti-img1{
+    width: 110px;
 }
 .conti-icon{
 

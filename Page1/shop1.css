@@ -185,6 +185,7 @@ main{
     flex-wrap: wrap;
     margin-top: 30px;
     justify-content: space-around;
+    gap: 5px;
 }
 .conti-img{
     width: 300px;
