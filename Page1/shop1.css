@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
 
     width: 100%;
@@ -27,6 +30,9 @@ header{
     height: 1rem;
     padding-top: 1rem;
     padding-right: 0.5rem;
+    &:hover{
+        color: red;
+    }
 }
 .size-7{
     height: 1.2rem;
@@ -49,6 +55,7 @@ header{
     height: 2rem;
     padding-top: 1rem;
     margin-right: 16px;
+    color: #ff4c3b;
 }
 .size-10{
     height: 2rem;
@@ -85,9 +92,19 @@ header{
 }
 .navig-btn{
     border: none;
-    background-color: #e4604a;;
+    background-color: #e4604a;
     height: 40px;
     width: 100px;
+    &:hover{
+        color: black;
+        background-color: #fff;
+        border: 2px solid red;
+        transition: .4s ease-in-out;
+        -webkit-transition: .4s ease-in-out;
+        -moz-transition: .4s ease-in-out;
+        -ms-transition: .4s ease-in-out;
+        -o-transition: .4s ease-in-out;
+}
 }
 .navig-r{
     width: 50%;
@@ -106,7 +123,7 @@ main{
     justify-content: space-around;
 }
 .cont{
-    background-image: url("./Fossil-upgrades-its-wearables-lineup-with-the-new-Gen-6-Hybrid-smartwatch.jpg");
+    background-image: url("../img/Fossil-upgrades-its-wearables-lineup-with-the-new-Gen-6-Hybrid-smartwatch.jpg");
     background-size: cover;
     height: 123px;
     margin: 3rem 6rem;
@@ -141,17 +158,35 @@ main{
     justify-content: space-around;
 }
 .cont-box1{
-    border: 1px solid;
+    border: 2px solid #dddada;
     text-align: center;
     align-items: center;
     justify-content: center;
     width: 200px;
+    &:hover{
+        border: 2px solid red;
+        transition: .7s ease-in-out;
+        -webkit-transition: .7s ease-in-out;
+        -moz-transition: .7s ease-in-out;
+        -ms-transition: .7s ease-in-out;
+        -o-transition: .7s ease-in-out;
+}
 }
 .cont-btn1{
     background-color: #fff;
     border-color: red;
     width: 105px;
     height: 40px;
+    &:hover{
+        border: none;
+        background-color: #e4604a;
+        color: #fff;
+        transition: .4s ease-in-out;
+        -webkit-transition: .4s ease-in-out;
+        -moz-transition: .4s ease-in-out;
+        -ms-transition: .4s ease-in-out;
+        -o-transition: .4s ease-in-out;
+}
 }
 .cont-btn2{
     background-color: #fff;
@@ -160,6 +195,12 @@ main{
     width: 105px;
     height: 40px;
     margin-bottom: 22px;
+    &:hover{
+        border: none;
+        background-color: #e4604a;
+        color: #fff;
+        transition: .3s ease-in-out;
+    }
 }
 .conti{
     background-color: #fff3fb;
@@ -189,6 +230,11 @@ main{
 }
 .conti-img{
     width: 300px;
+    &:hover{
+        -ms-transform: scale(1.02);
+        -webkit-transform: scale(1.02);
+        transition: .3s ease-in-out;
+}
 }
 .conti-icon{
 
@@ -472,6 +518,11 @@ main{
 }
 .containe-img1{
     width: 450px;
+    &:hover{
+            -ms-transform: scale(1.02);
+            -webkit-transform: scale(1.02);
+            transition: .3s ease-in-out;
+    }
 }
 .containe{
     background-color: #f1f5f4;
@@ -508,7 +559,14 @@ main{
     margin-top: 15px;
 }
 .container-h3{
-
+    &:hover{
+        color: red;
+        transition: 0.3s ease-in-out    ;
+        -webkit-transition: 0.3s ease-in-out    ;
+        -moz-transition: 0.3s ease-in-out    ;
+        -ms-transition: 0.3s ease-in-out    ;
+        -o-transition: 0.3s ease-in-out    ;
+}
 }
 .container-h5{
     color: #777777;
