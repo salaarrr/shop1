@@ -47,8 +47,10 @@ header{
     display: flex;
 }
 .navig-left2{
-    position: absolute;
     overflow: hidden;
+}
+.navig-right{
+    display: flex;
 }
 .navig-left2.active{
     overflow: visible;

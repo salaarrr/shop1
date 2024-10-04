@@ -38,7 +38,7 @@ header{
     }
 }
 .navig-left2{
-    position: absolute;
+    
     overflow: hidden;
 }
 .navig-left2.active{
@@ -81,6 +81,9 @@ ul li:first-child{
     padding-bottom: 30px;
     margin-left: -21px;
     padding-left: 190px;
+}
+.navig-right{
+    display: flex;
 }
 .size-7{
     height: 1.2rem;
