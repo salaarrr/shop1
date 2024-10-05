@@ -213,6 +213,7 @@ main{
     align-items: center;
     justify-content: center;
     width: 200px;
+    padding-bottom: 20px;
     &:hover{
         border: 2px solid red;
         transition: .7s ease-in-out;
