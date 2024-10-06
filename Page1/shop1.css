@@ -16,7 +16,7 @@ header{
 .nav-header{
     background-color: #f8f8f8;
     color: #999999;
-    
+    padding: 4px 70px;
 }
 .nav-li{
     display: flex;
@@ -313,6 +313,7 @@ header{
     justify-content: space-between;
     margin-top: 23px;
     margin-bottom: 23px;
+    padding: 0 70px;
 }
 .navig{
     width: 100%;
@@ -364,7 +365,7 @@ main{
     justify-content: space-around;
 }
 .cont{
-    background-image: url("../img/Fossil-upgrades-its-wearables-lineup-with-the-new-Gen-6-Hybrid-smartwatch.jpg");
+    background-image: url("../img/a2.jpg");
     background-size: cover;
     height: 123px;
     margin: 3rem 6rem;
@@ -403,7 +404,7 @@ main{
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 200px;
+    width: 280px;
     padding-bottom: 20px;
     &:hover{
         border: 2px solid red;
@@ -446,6 +447,7 @@ main{
 }
 .conti{
     background-color: #fff3fb;
+    padding: 0 70px;
 }
 .conti-text{
     text-align: center;
@@ -659,6 +661,7 @@ main{
     flex-wrap: wrap;
     margin-top: 30px;
     justify-content: space-around;
+    padding: 0 70px;
 }
 .conta-t{
     display: flex;
@@ -709,7 +712,7 @@ main{
     grid-row-end: 3;
     margin-top: 30px;
     text-align: center;
-
+    padding: 0 70px;
 }
 .contain-box1{
     height: 440px;
@@ -768,6 +771,7 @@ main{
 }
 .containe{
     background-color: #f1f5f4;
+    padding: 0 70px;
 }
 .containe-t{
     text-align: center;
@@ -791,6 +795,7 @@ main{
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
+    padding: 0 70px;
 }
 .container-box1{
     display: flex;
