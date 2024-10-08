@@ -742,6 +742,7 @@ header{
     background-image: url(../img/imggg8.jpg);
     background-size: cover;
     height: 600px;
+    background-attachment: fixed;
 }
 .conta-t{
     display: flex;
@@ -1043,6 +1044,31 @@ header{
 }
 .foott2 ul li a{
     color: #938d8c;
+    position: relative;
+    transition:all 1s;
+    &:after,&:before{
+     content:" ";
+     width:0px;
+     height:19px;
+     position:absolute;
+     border:0px solid #fff;
+     transition:all 0.2s;
+     -webkit-transition:all 0.2s;
+     -moz-transition:all 0.2s;
+     -ms-transition:all 0.2s;
+     -o-transition:all 0.2s;
+}
+    &:after{
+     top:-1px;
+     left:-1px;
+     border-bottom:3px solid red;
+    }
+    &:hover{
+     &:before,&:after{
+      width:100%;
+      height:100%;
+     }
+    }
 }
 .foott3{
 
@@ -1060,6 +1086,31 @@ header{
 }
 .foott3 ul li a{
     color: #938d8c;
+    position: relative;
+    transition:all 1s;
+    &:after,&:before{
+     content:" ";
+     width:0px;
+     height:19px;
+     position:absolute;
+     border:0px solid #fff;
+     transition:all 0.2s;
+     -webkit-transition:all 0.2s;
+     -moz-transition:all 0.2s;
+     -ms-transition:all 0.2s;
+     -o-transition:all 0.2s;
+}
+    &:after{
+     top:-1px;
+     left:-1px;
+     border-bottom:3px solid red;
+    }
+    &:hover{
+     &:before,&:after{
+      width:100%;
+      height:100%;
+     }
+    }
 }
 .foott4{
 
@@ -1111,4 +1162,5 @@ header{
 .footerr-r{
     display: flex;
     justify-content: space-around;
+    gap: 8px;
 }
